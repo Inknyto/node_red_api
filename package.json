@@ -9,6 +9,7 @@
   "author": "francois",
   "license": "ISC",
   "dependencies": {
+    "aedes": "^0.51.1",
     "express": "^4.19.2",
     "mqtt": "^5.6.0"
   }
