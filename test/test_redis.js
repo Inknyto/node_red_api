@@ -7,7 +7,7 @@ publisher.publish(channel, message);
 console.log(`Sent: ${message}`);
 publisher.quit();
 
-// Consumer
+// Subscriber
 const subscriber = redis.createClient();
 subscriber.subscribe(channel);
 console.log('Waiting for messages...');
